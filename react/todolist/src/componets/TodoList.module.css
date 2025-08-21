@@ -1,0 +1,45 @@
+.todolist {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.add-todos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.todos-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.finished {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    margin-right: 5px;
+}
+
+.unfinished {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+}
+
+.todo-btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
